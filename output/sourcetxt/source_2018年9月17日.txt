@@ -1,0 +1,389 @@
+2018年9月17日山东地区汽油柴油价格行情 _ 东方财富网
+        function isMobile() {
+            var ua = navigator.userAgent;
+            var res = false;
+            var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+                isIphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+                isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+                isMobile = isIphone || isAndroid;
+            if (isMobile) {
+                res = true;
+            } else {
+                res = false;
+            }
+            return res;
+        }
+        if (isMobile()) {
+            location.href = "https://emwap.eastmoney.com/info/detail/20180917946941610";
+        }
+财经要闻股票新股期指期权行情数据全球美股港股期货外汇黄金银行基金理财保险债券视频股吧基金吧博客搜索
+行情中心
+指数
+期指
+期权
+个股
+板块
+排行
+新股
+基金
+港股
+美股
+期货
+外汇
+黄金
+自选股
+自选基金
+                .sc-search .btnNew {
+                    *margin-top: -26px;
+                }
+数据中心
+资金流向
+主力排名
+板块资金
+个股研报
+新股申购
+转债申购
+AH股比价
+季报中报
+机构持仓
+融资融券
+龙虎榜单
+股东分析
+限售解禁
+大宗交易
+股权质押
+首页 >
+                    财经频道 >
+                正文
+2018年9月17日山东地区汽油柴油价格行情
+2018年09月17日 13:36
+来源：
+FX168        
+关注之后可在右侧个性化推荐-设置中查看
+编辑：东方财富网
+943人参与讨论
+我来说两句
+手机免费看新闻
+财富号入驻直达
+东方财富APP
+方便，快捷
+手机查看财经快讯
+专业，丰富
+一手掌握市场脉搏
+手机上阅读文章
+提示：
+微信扫一扫
+分享到您的
+朋友圈
+大
+中
+小
+　　山东东营华星石化今日成品油报价：国五92#汽油8850元/吨，密度0.72；国五95#汽油无报价，密度0.72；国六92#汽油(高效)8900元/吨，新出；国五0#普柴7800元/吨，密度0.84；国五0#车柴7900元/吨；国六0#车柴7900元/吨；催柴无报价，停报。
+　　山东东营正和集团今日成品油报价：国四90#汽油无货，密度0.73；国四93#汽油无报价，密度0.739；国四97#汽油无报价，密度0.748；国六92#汽油8850元/吨，密度0.74；国六95#汽油9000元/吨，密度0.74；国五0#普通柴油7830元/吨。燃料油13#7830元/吨；国五0#车柴7930元/吨；国六0#车柴7930元/吨。
+　　山东东营神驰炼厂今日成品油报价：国六89#组分汽油8700元/吨，密度0.728；国六92#汽油8800元/吨，密度0.737；国六95#汽油8900元/吨，密度0.740；普通0#柴油无报价，密度0.823；国六-0#车柴无报价，密度0.813；国六高标92#汽油无报价，密度0.73；国六高标95#汽油无报价，密度0.73；0#普柴无报价，密度0.823；国六0#车柴无报价，密度0.8139；清洁柴油0#7600。
+                (责任编辑：DF120)
+                    共943人参与讨论                
+我来说两句…
+举报
+                jQuery(".jubaolink").attr("href",jQuery(".jubaolink").attr("href")+"&newsurl="+encodeURIComponent(window.location.href));
+[热门] 免费查看板块强弱指标 紧急抄底获取超跌股 主力逆势布局的奥秘(附股)[关注] 这波行情主力建仓哪些股票? 18只大资金注入股 买热门基金申购费率全面1折
+您可能感兴趣
+要闻
+股票
+全球
+港股
+美股
+期货
+外汇
+生活
+                点击查看更多
+没有更多推荐
+var _NewsTag ='汽油,柴油,地区,';var _NewsId ='20180917946941610';var _us_zixun_Id ='20180917946941610';
+热搜
+宝德股份涨停5连板
+老妖王特力A连续涨停
+博云新材涨停3连板
+蓝海华腾两连板
+上证成交额不足900亿
+连跌3天的股票
+创3年新低的股票
+连涨3天的股票
+连续涨停的股票
+涨幅>5%的股票
+沪深股市
+更多
+指数
+个股
+行业
+概念
+自选
+名称
+最新价
+涨跌幅
+换手率
+资金流入
+请下载东方财富产品，查看实时行情和更多数据
+点击排行
+财经
+股票
+博客
+股吧
+财富号
+1 
+有外资机构每日用光额度加仓A股！外资买买买 内资加仓
+2 
+券商股再掀股东“增持潮” 估值比2016年熔断低点最多降七成
+3 
+沪指收盘下跌逾1%再现地量成交 深成指与创业板指续创四年新低
+4 
+人民币中间价今日下调147点 降幅创2018年9月10日以来最大
+5 
+机构论市：两大因素影响市场走势 外资比A股机构投资者更乐观
+6 
+A股受国际指数青睐 本周或迎好消息
+7 
+联想澄清“不是一家中国公司”言论：被曲解 断章取义
+8 
+大发审委审核效率有目共睹 过会率57.69%缓解IPO“堰塞湖”
+9 
+华大基因举报人再发声：自杀前公布存有证据云盘密码
+10 
+沪指和创业板指震荡下跌 有色金属板块跌幅居前
+1 
+有外资机构每日用光额度加仓A股！外资买买买 内资加仓
+2 
+券商股再掀股东“增持潮” 估值比2016年熔断低点最多降七成
+3 
+沪指收盘下跌逾1%再现地量成交 深成指与创业板指续创四年新低
+4 
+人民币中间价今日下调147点 降幅创2018年9月10日以来最大
+5 
+机构论市：两大因素影响市场走势 外资比A股机构投资者更乐观
+6 
+A股受国际指数青睐 本周或迎好消息
+7 
+央行刚刚放水2650亿！为何是这个时点 看四大关键变量
+8 
+两大热门会议掀起人工智能周 概念股有望爆发
+9 
+3万元引发惨案！这只股开盘被砸跌停 更有股票成交500元就跌停……
+10 
+大发审委审核效率有目共睹 过会率57.69%缓解IPO“堰塞湖”
+1 
+大盘非要跌破2638点不可吗？
+第六感觉
+2 
+明天将有短期抄底机会
+趋势巡航
+3 
+2638点熬的越久投资者受伤越深
+余岳桐
+4 
+风险未除 还有新低！
+股海上的灯塔
+5 
+今天大盘能否刮起台风
+趋势巡航
+6 
+史上最大“回购潮”能给力挽狂澜止跌吗？
+王炜_思维流
+7 
+李志林丨创业板再创调整新低，大盘呈低位缩量震荡
+李志林_忠言
+8 
+明日将现结构性低点！
+上善若水兵者诡道
+9 
+山竹来了，主力跑了？！
+狗蛋
+10 
+地量频现意味着什么？
+雨农谈股
+1 
+“山竹”强势来袭 粤港澳正面受袭 周一开不开市？深港交易所有回应
+1080311
+2 
+沪指收盘下跌逾1%再现地量成交 深成指与创业板指续创四年新低
+780706
+3 
+更多外国人今起可参与A股交易 对股市有哪些影响？
+750966
+4 
+有外资机构每日用光额度加仓A股！外资买买买 内资加仓
+622851
+5 
+易纲：继续放宽对外资金融机构股比限制
+617240
+6 
+习近平：共享数字经济发展机遇 共同推动人工智能造福人类
+517234
+7 
+刘鹤：在AI领域民营企业力量不容忽视
+508791
+8 
+沪指和创业板指震荡下跌 有色金属板块跌幅居前
+464221
+9 
+最新股市投资日历：创业板年内最大一笔IPO来了（解禁股名单）
+419159
+10 
+周末要闻回顾：证监会核发2家IPO批文 8月一二三线城市房价稳中有涨
+383327
+1 
+交易费率对指数基金影响有多大？
+2 
+货币收益不断下降怎么回事？
+3 
+养老目标基金｜买来养老的基金，会不会反过来“啃老”？
+4 
+蒋雯丽家族捞金梦碎：10亿收购案夭折，长城影视一地鸡毛
+5 
+抗跌的就一定是好基金吗？
+6 
+下周开始进入几个时间之窗，好事临近
+7 
+国资“抄底”A股当谨慎
+8 
+A股暂难存在趋势性行情机会
+9 
+资本连环局！中国”拉链大王”是如何沦落的？
+10 
+股侠冯伟：周五操作策略
+热门头条
+[财经]
+刘鹤：在AI领域民营企业力量不容忽视
+[股票]
+空方有强化趋势
+[基金]
+基金挖掘高景气确定性机会
+[全球]
+中国俄罗斯欧洲几乎同时出手 直戳美国软肋！
+[美股]
+蔚来汽车抢滩上市融10亿美元
+[港股]
+今年港股上市破发明显
+[期货]
+油价年内第十一涨 加满一箱多花5.5元
+[黄金]
+机构：2019年美联储恐升息6次
+[外汇]
+中俄欧同时出手 直戳美国软肋
+[新股]
+发审委审核效率高 过会率57.69%
+热点推荐
+罪犯伪造奖票兑2237万北京限竞房项目打折银行存款去哪儿了监管风暴下的币圈百态卡没丢密码未泄钱没了北京公积金新政将实施高杠杆配资死灰复燃？套路不止的租房分期
+一键关注财经大咖 上市公司季报中报
+频道精华
+PPP项目近期加速落地基金挖掘高景气性机会私募：磨底 积极播种生产PTA堪比印钞机港交所今日或正常开市特朗普坐等加拿大妥协地方债新政酝酿推出北京限竞房项目打折
+视频
+精财视界：买卖股基赚不到钱？房基来了解一下？精财视界：5分钟了解债转股背后的秘密精财视界：配资炒股新玩法，陆港通背后的秘密精财视界：失传已久的股市秘籍，四度空间理论你听说过吗？（下）精财视界：失传已久的股市秘籍，四度空间理论你听说过吗？（上）精财视界：揭秘“道氏理论”实战性极强的精髓运用法则精财视界：一、二、三线轮动背后的秘密(下)精财视界：一、二、三线轮动背后的秘密(上)
+焦点专题
+更多
+2018夏季达沃斯论坛2018世界经济论坛新领军者年会将于2018年9月18日至9月20日在天津梅江会展中心举行。 聚焦个税改革 马云宣布阿里传承计划胡景晖因炮轰房租事件离职 滴滴顺风车再出命案聚焦北美自由贸易协定 央行与财政部隔空论战人民币汇率重启逆周期因子 聚焦生育政策买不起房成“租不起” 证监会完善回购放大招
+郑重声明：东方财富网发布此信息目的在于传播更多信息，与本网站立场无关。东方财富网不保证该信息（包括但不限于文字、数据及图表）全部或者部分内容的准确性、真实性、完整性、有效性、及时性、原创性等。相关信息并未经过本网站证实，不对您构成任何投资建议，据此操作，风险自担。
+    .footer2016 ul {list-style: none;margin: 0;padding: 0;}
+    .footer2016 a:hover{color:#ff4901 !important;text-decoration: underline !important;}
+    .footer2016 .icon, .footer2016 .navlist li a {display: inline-block;}
+    .footer2016 .icon {background-image: url(http://g1.dfcfw.com/g3/201802/20180206095814.png);background-repeat: no-repeat;}
+    .footer2016 {margin: 0 auto;clear: both;width: 1000px;line-height: 1.1;_line-height: 1.2;font-family: simsun;font-size: 12px;border-top: 2px solid #2F5895;}
+    .footer2016 .footertg {background-color: #F3F3F3;float: left;width: 100%;padding: 12px 0 0;height: 140px;}
+    .footer2016 .footertg a:link, .footer2016 .footertg a:visited {color: #676767;text-decoration: none;}
+    .footer2016 .qr {float: left;width: 80px;height: 140px;line-height: 150%;padding: 0 10px 0 8px;}
+    .footer2016 .qr .t {font-weight: 700;font-size: 14px;padding-bottom: 10px;}
+    .footer2016 .icon_qrem80, .footer2016 .icon_qrjj80 {background-image: url(http://g1.dfcfw.com/g2/201607/20160728133707.png);width: 80px;height: 80px;}
+    .footer2016 .icon_qrem80 {background-position: 0 -330px;}
+    .footer2016 .icon_emwxqr, .footer2016 .icon_jjwxqr {background-image: url(http://g1.dfcfw.com/g2/201607/20160728133707.png);width: 86px;height: 106px;}
+    .footer2016 .icon_emwxqr {background-position: -90px 0;}
+    .footer2016 .ftglist ul li.qrli {position: relative;}
+    .footer2016 .ftglist ul li.qrli:hover .icon_qr, .footer2016 .scl-news .name a {display: block;}
+    .footer2016 .icon_emwxqr, .footer2016 .icon_jjwxqr {display: none;position: absolute;left: 0;top: 24px;}
+    .footer2016 .ftglist {float: left;height: 140px;padding: 0px 10px;}
+    .footer2016 .ftglistt {font-size: 14px;font-weight: 700;line-height: 130%;padding-bottom: 6px;text-align: left;}
+    .footer2016 .ftglist ul li {padding: 5px 0;color: #676767;text-align: left;}
+    .footer2016 .icon_wb {background-position: -24px 0;width: 14px;height: 12px;}
+    .footer2016 .icon_wx {background-position: 0 0;width: 14px;height: 11px;}
+    .footer2016 .icon_note {background-position: -47px 0;width: 13px;height: 11px;}
+    .footer2016 .ftglist .icon {vertical-align: -1px;margin-right: 2px;}
+    .footer2016 .footertg a:link, .footer2016 .footertg a:visited {color: #676767;text-decoration: none;}
+    .footer2016 .qrl {border-left: 1px solid #ddd;margin-left: 10px;padding-left: 20px;}
+    .footer2016 .icon_qrjj80 {background-position: -90px -330px;}
+    .footer2016 .footercr {clear: both;text-align: center;line-height: 26px;font-size: 12px;width:1000px;margin: 0 auto;height:26px;overflow:hidden;}
+    .footer2016 .icon_icp {background-position: -24px -21px;width: 15px;height: 17px;}
+    .footer2016 .footercr .icon {vertical-align: -3px;margin-right: 2px;}
+    .footer2016 .icon_pol {background-position: 0 -22px;width: 18px;height: 20px;}
+    .footer2016 .footerlinks {background-color: #2F5895;height: 30px;text-align: center;line-height: 30px;}
+    .footer2016 .footerlinks a:link, .footer2016 .footerlinks a:visited, .footer2016 .footerlinks a:hover {color: #fff !important;text-decoration: none;margin: 0 14px;}
+    .footer2016 .footerbz {text-align: center;padding: 12px 0;}
+    .footer2016 .footerbz a {margin: 0 4px;}
+    .footer2016 .footer-police {background-position: 0 -112px;width: 110px;height: 40px;}
+    .footer2016 .footer-zx110 {background-position: -120px -113px;width: 110px;height: 40px;}
+    .footer2016 .footer-shjubao {background-position: 0 -172px;width: 110px;height: 40px;}
+    .footer2016 .footer-cxzx {background-position: -120px -174px;width: 40px;height: 40px;}
+    .footer2016 .footer-shgs {background-position: -180px -174px;width: 47px;height: 40px;}
+    .footer2016 .footer-12377 {background-position: 0 -54px;width: 186px;height: 40px;}
+    .footer2016 .footer-yhjb {background-position: 0 -229px;width: 123px;height: 40px;}
+    .footer2016 .footer-qrlast {width: 90px;}
+    .footer2016 .footer-icon-qihuoqr { background: url(http://emcharts.dfcfw.com/images/qihuoqr.png);width: 80px;height: 80px;display: inline-block;background-repeat: no-repeat;vertical-align: -5px;}
+东方财富
+扫一扫下载APP
+东方财富产品
+东方财富网免费版
+东方财富网Level-2
+投资大师
+Choice金融终端
+浪客 - 视频社交
+证券交易
+东方财富证券开户
+东方财富在线交易
+东方财富证券交易
+港美股开户
+港美股交易 
+关注东方财富
+东方财富网微博
+东方财富网微信
+意见与建议
+天天基金
+扫一扫下载APP
+基金交易
+基金开户
+基金交易
+活期宝
+基金产品
+稳健理财
+关注天天基金
+天天基金网微博
+天天基金网微信
+东方财富期货
+扫一扫下载APP
+期货交易
+期货手机开户
+期货电脑开户
+期货官方网站
+信息网络传播视听节目许可证：0908328号 经营证券期货业务许可证编号：913101046312860336 违法和不良信息举报:021-34289898 举报邮箱：jubao@eastmoney.com
+沪ICP证:沪B2-20070217 网站备案号:沪ICP备05006054号-11  沪公网安备 31010402000120号 版权所有:东方财富网 意见与建议:021-54509966/021-24099099
+关于我们
+广告服务
+联系我们
+诚聘英才
+免责声明
+法律声明
+隐私保护
+征稿启事
+网站地图
+放心搜
+友情链接
+    if(document.all && !window.XMLHttpRequest){
+        $(".qrli").hover(function(){
+            $(".icon_qr",this).show();
+        },function(){
+            $(".icon_qr",this).hide();
+        });
+    }
+        var OpenGuanZhu = true;
+        loadFontSize();
+guba_replyList({ se: '.GuBaComment',id: '20180917946941610','topNavH':30});    
+        jQuery(function () {
+            var pdtips = new window.pdtips({
+                id: '#ContentBody'
+            })
+        })
