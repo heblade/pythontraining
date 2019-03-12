@@ -24,3 +24,6 @@
 /nlpmodel/lstm/modellog/bilstm_epoch_100_batchsize_64_20181226.txt
 /nlpmodel/lstm/modellog/bilstm_epoch_500_batchsize_64_20181226.txt
 /output/pkuseg/output.txt
+/17flowers/train
+/17flowers/test
+/17flowers
