@@ -9,7 +9,6 @@
 @time: 2019/03/12
 """
 import os
-import requests
 import contextlib
 import platform
 
@@ -41,7 +40,7 @@ headers = {'Connection': "keep-alive",
 
 
 def urlretrieve(url, filename=None, reporthook=None, params=None):
-
+    import requests
     print('download file: {0}'.format(url))
     with contextlib.closing(requests.get(url,
                                          stream=True,
@@ -131,6 +130,7 @@ In Windows, you should install Visual Studio 2015 or Visual Studio 2017 with VC+
     except:
         print('Please install Spacy!')
     print('Install process is done!')
- 
+
+
 if __name__ == '__main__':
     startjob()
