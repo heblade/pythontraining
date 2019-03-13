@@ -24,11 +24,11 @@ else:
     python = 'python3'
 
 
-def Schedule(a, b, c):
-    per = 100.0 * a * b / c
+def Schedule(blocknum, blocksize, totalsize):
+    per = 100.0 * blocknum * blocksize / totalsize
     if per > 100:
         per = 100
-    print("  " + "%.2f%% 已经下载的大小:%ld 文件大小:%ld" % (per, a * b, c) + '\r')
+    print("  " + "%.2f%% 已经下载的大小:%ld 文件大小:%ld" % (per, blocknum * blocksize, totalsize) + '\r')
 
 
 headers = {'Connection': "keep-alive",
@@ -88,14 +88,37 @@ def download_numpy():
 
 def startjob():
     print("""
-Please confirm whether have installed C++ compile environment, 
-In Windows, you should install Visual Studio 2015 or Visual Studio 2017 with VC++ components.""")
-    print('If opertation is Windows, the command of pip should be pip, python should be python')
-    print('Otherwise, the command of pip should be pip3, python should be python3')
-    print('Please check them at first!')
+#############################################################################################
+Please confirm whether have installed C++ compile environment.
+For Windows user, you should install Visual Studio 2015 or Visual Studio 2017 with VC++ components,
+Or it's better to download .whl install package from https://www.lfd.uci.edu/~gohlke/pythonlibs/.
 
+If opertation is Windows, the command of pip should be pip, python should be python
+Otherwise, the command of pip should be pip3, python should be python3
+Please check them at first!
+#############################################################################################
+""")
+    print('Upgrade pip begin')
+    os.system('{0} -m {1} install --upgrade pip'.format(python, pip))
+    print('Upgrade pip end')
+
+    install_numpy_sklearn()
+
+    if os.path.exists('all_requirements.txt'):
+        print('Install all of packages in requirements')
+        os.system('{0} install -r all_requirements.txt'.format(pip))
+        print('All of packages in requirements have been installed, please notice warning or error during installation.')
+
+    install_spacy()
+
+    print('Install process is done!')
+
+
+def install_numpy_sklearn():
+    print('Check whether have installed Numpy and Scikit-Learn')
     try:
         import numpy
+        print('Numpy has been installed.')
     except Exception as e:
         print('need install numpy')
         if iswindows:
@@ -105,32 +128,38 @@ In Windows, you should install Visual Studio 2015 or Visual Studio 2017 with VC+
 
     try:
         import sklearn
+        print('Scikit-Learn has been installed.')
     except Exception as e:
         print('need install scikit-learn')
-        os.system('{0} install sklearn'.format(pip))
+        os.system('{0} install scikit-learn'.format(pip))
 
-    if os.path.exists('all_requirements.txt'):
-        print('Install all of packages in requirements')
-        os.system('{0} install -r all_requirements.txt'.format(pip))
-        print('All of packages in requirements have been installed, please notice warning or error during installation.')
+
+def install_spacy():
     try:
         import spacy
-        print('Install necessary Spacy model')
-        try:
-            import en_core_web_sm
-        except:
-            print('Install Spacy English Small Model')
-            os.system('{0} -m spacy download en_core_web_sm'.format(python))
-
-        try:
-            import en_core_web_lg
-        except:
-            print('Install Spacy English Large Model')
-            os.system('{0} -m spacy download en_core_web_lg'.format(python))
+        install_spacy_model()
     except:
-        print('Please install Spacy!')
-    print('Install process is done!')
+        print('Install Spacy')
+        os.system('{0} install spacy'.format(pip))
+        install_spacy_model()
 
+
+def install_spacy_model():
+    print('Install necessary Spacy model')
+    try:
+        import en_core_web_sm
+        print('Spacy model: en_core_web_sm has been installed.')
+    except:
+        print('Install Spacy English Small Model')
+        os.system('{0} -m spacy download en_core_web_sm'.format(python))
+
+    try:
+        import en_core_web_lg
+        print('Spacy model: en_core_web_lg has been installed.')
+    except:
+        print(
+            'Install Spacy English Large Model, this package is big, if you need abort this process, please enter CTRL+C to break.')
+        os.system('{0} -m spacy download en_core_web_lg'.format(python))
 
 if __name__ == '__main__':
     startjob()
