@@ -1,8 +1,8 @@
 """
 @version: 0.1
 @author: Blade He
-@license: Morningstar 
-@contact: blade.he@morningstar.com
+@license: MIT 
+@contact: 8019068@qq.com
 @site: 
 @software: PyCharm
 @file: install_need_package.py
