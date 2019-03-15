@@ -177,6 +177,7 @@ msgpack==0.5.6
 msgpack-numpy==0.4.1
 msgpack-python==0.5.4
 murmurhash==0.28.0
+mysqlclient==1.4.2.post1
 nbconvert==5.4.0
 nbformat==4.4.0
 networkx==2.1
@@ -216,6 +217,7 @@ prompt-toolkit==1.0.15
 protobuf==3.6.1
 py==1.6.0
 pyaml==18.11.0
+pyarrow==0.12.1
 pyasn1==0.4.4
 pyasn1-modules==0.2.2
 pyCalverter==1.6.1
@@ -254,7 +256,7 @@ PyWavelets==1.0.1
 pywin32==224
 pywin32-ctypes==0.2.0
 pywinpty==0.5.4
-PyYAML>=4.2b1
+PyYAML==4.2b1
 pyzmq==17.1.2
 qtconsole==4.4.1
 QtPy==1.5.0
@@ -266,7 +268,6 @@ responses==0.10.5
 rsa==3.4.2
 s3transfer==0.1.13
 scikit-image==0.14.2
-scikit-learn==0.20.2
 scikit-surprise==1.0.3
 scipy==1.0.0
 Scrapy==1.4.0
