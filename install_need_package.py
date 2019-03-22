@@ -103,18 +103,32 @@ Please check them at first!
         tzname = time.tzname
         if tzname is not None and \
             len(tzname) > 0 and \
-            'china' in str(tzname[0]).lower():
+            ('china' in str(tzname[0]).lower() or
+             'cst' in str(tzname[0].lower())):
             print('Set python install package mirror in China begin')
             userfolder = os.path.expanduser('~')
-            pip_config_folder = os.path.join(userfolder, 'pip')
+            if iswindows:
+                pip_folder = 'pip'
+                pip_file = 'pip.ini'
+            else:
+                pip_folder = '.pip'
+                pip_file = 'pip.conf'
+            pip_config_folder = os.path.join(userfolder, pip_folder)
             if not os.path.exists(pip_config_folder):
                 os.makedirs(pip_config_folder)
 
-            pip_config_file = os.path.join(pip_config_folder, 'pip.ini')
+            pip_config_file = os.path.join(pip_config_folder, pip_file)
             print('pip config file is: {0}'.format(pip_config_file))
             if not os.path.exists(pip_config_file):
                 with open(pip_config_file, mode='w', encoding='utf-8') as file:
-                    file.writelines(['[global]\n', 'index-url = https://pypi.tuna.tsinghua.edu.cn/simple'])
+                    file.write("""
+[global]  
+index-url = http://pypi.douban.com/simple/   
+[install]  
+use-mirrors = true  
+mirrors = http://pypi.douban.com/simple/   
+trusted-host = pypi.douban.com
+                    """)
             else:
                 print('You have set python install package mirror in China.')
             print('Set python install package mirror in China end')
@@ -125,7 +139,7 @@ Please check them at first!
         print(e)
 
     print('Upgrade pip begin')
-    os.system('{0} -m {1} install --upgrade pip'.format(python, pip))
+    os.system('{0} -m pip install --upgrade pip'.format(python, pip))
     print('Upgrade pip end')
 
     os.system('{0} install Cython'.format(pip))
