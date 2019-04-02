@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61e5ad24-892c-4fe1-93ae-9eddb0d0b7f0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/pythontraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythontraining.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mycode/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/statisticsKIID.py" beforeDir="false" afterPath="$PROJECT_DIR$/mycode/statisticsKIID.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/support.py" beforeDir="false" afterPath="$PROJECT_DIR$/mycode/support.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install_need_package.py" beforeDir="false" afterPath="$PROJECT_DIR$/install_need_package.py" afterDir="false" />
-    </list>
+    <list default="true" id="61e5ad24-892c-4fe1-93ae-9eddb0d0b7f0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/install_need_package.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="136" column="34" lean-forward="true" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
+            <state relative-caret-position="96">
+              <caret line="283" column="31" selection-start-line="283" selection-start-column="22" selection-end-line="283" selection-end-column="31" />
               <folding>
                 <element signature="e#174#183#0" expanded="true" />
               </folding>
@@ -268,7 +261,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32791328" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39972898" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -359,8 +352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/install_need_package.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="136" column="34" lean-forward="true" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
+        <state relative-caret-position="96">
+          <caret line="283" column="31" selection-start-line="283" selection-start-column="22" selection-end-line="283" selection-end-column="31" />
           <folding>
             <element signature="e#174#183#0" expanded="true" />
           </folding>
