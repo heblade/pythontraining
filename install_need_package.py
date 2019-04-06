@@ -1,8 +1,8 @@
 """
 @version: 0.1
 @author: Blade He
-@license: MIT 
-@contact: 8019068@qq.com
+@license: Morningstar 
+@contact: blade.he@morningstar.com
 @site: 
 @software: PyCharm
 @file: install_need_package.py
@@ -98,20 +98,153 @@ Otherwise, the command of pip should be pip3, python should be python3
 Please check them at first!
 #############################################################################################
 """)
+    try:
+        import time
+        tzname = time.tzname
+        if tzname is not None and \
+            len(tzname) > 0 and \
+            ('china' in str(tzname[0]).lower() or
+             'cst' in str(tzname[0].lower())):
+            print('Set python install package mirror in China begin')
+            userfolder = os.path.expanduser('~')
+            if iswindows:
+                pip_folder = 'pip'
+                pip_file = 'pip.ini'
+            else:
+                pip_folder = '.pip'
+                pip_file = 'pip.conf'
+            pip_config_folder = os.path.join(userfolder, pip_folder)
+            if not os.path.exists(pip_config_folder):
+                os.makedirs(pip_config_folder)
+
+            pip_config_file = os.path.join(pip_config_folder, pip_file)
+            print('pip config file is: {0}'.format(pip_config_file))
+            if not os.path.exists(pip_config_file):
+                with open(pip_config_file, mode='w', encoding='utf-8') as file:
+                    file.write("""
+[global]  
+index-url = http://pypi.douban.com/simple/   
+[install]  
+use-mirrors = true  
+mirrors = http://pypi.douban.com/simple/   
+trusted-host = pypi.douban.com
+                    """)
+            else:
+                print('You have set python install package mirror in China.')
+            print('Set python install package mirror in China end')
+            print('The python install package mirror in China is:')
+            with open(pip_config_file, mode='r', encoding='utf-8') as file:
+                print(file.read())
+    except Exception as e:
+        print(e)
+
     print('Upgrade pip begin')
-    os.system('{0} -m {1} install --upgrade pip'.format(python, pip))
+    os.system('{0} -m pip install --upgrade pip'.format(python, pip))
     print('Upgrade pip end')
 
-    install_numpy_sklearn()
+    os.system('{0} install Cython'.format(pip))
 
-    if os.path.exists('all_requirements.txt'):
+    install_numpy_sklearn()
+    install_tensor_flow_torch()
+
+    all_requirement_file = 'all_requirements.txt'
+    if os.path.exists(all_requirement_file):
         print('Install all of packages in requirements')
-        os.system('{0} install -r all_requirements.txt'.format(pip))
+        with open(all_requirement_file, mode='r', encoding='utf-8') as file:
+            for package in file.readlines():
+                if package and len(package) > 0:
+                    try:
+                        os.system('{0} install {1}'.format(pip, package))
+                    except Exception as e:
+                        print(e)
         print('All of packages in requirements have been installed, please notice warning or error during installation.')
 
+    install_nltk()
     install_spacy()
-
     print('Install process is done!')
+
+
+def install_tensor_flow_torch():
+    has_gpu = False
+    try:
+        print('Install nvidia-ml-py3')
+        os.system('{0} install nvidia-ml-py3'.format(pip))
+        import pynvml
+        pynvml.nvmlInit()
+        # handle = len(pynvml.nvmlDeviceGetHandleByIndex(0))  # 这里的0是GPU id
+        # meminfo = pynvml.nvmlDeviceGetMemoryInfo(handle)
+        # print('GPU memory size: {0}'.format(meminfo.total))  # 第二块显卡总的显存大小
+        # print('GPU memory used: {0}'.format(meminfo.used))  # 这里是字节bytes，所以要想得到以兆M为单位就需要除以1024**2
+        # print('GPU memory free: {0}'.format(meminfo.free))  # 第二块显卡剩余显存大小
+        print('GPU Amount: {0}'.format(pynvml.nvmlDeviceGetCount()))  # 显示有几块GPU
+        has_gpu = True
+        print('Install Tensorflow-GPU')
+        os.system('{0} install tensorflow-gpu==1.13.1'.format(pip))
+        try:
+            print('Try to run Tensorflow')
+            test_tensor_flow()
+            print('Succeed to run Tensorflow, congratulations!')
+        except Exception as e:
+            print(e)
+            print("""
+            Please confirm below requirements on GPU machine:
+            Python 3.6.x
+            Tensorflow 1.13
+            CUDA 10.0: https://developer.nvidia.com/cuda-10.0-download-archive
+            cuDNN v7.50 (Feb 21, 2019) for CUDA 10: https://developer.nvidia.com/cudnn
+            If you have installed them, please restart your computer to retry!
+            """)
+        print('Install Pytorch-GPU')
+        try:
+            import torch
+        except:
+            if iswindows:
+                os.system('{0} install https://download.pytorch.org/whl/cu100/torch-1.0.1-cp36-cp36m-win_amd64.whl'
+                          .format(pip))
+            else:
+                os.system('{0} install https://download.pytorch.org/whl/cu100/torch-1.0.1.post2-cp36-cp36m-linux_x86_64.whl'
+                          .format(pip))
+            os.system('{0} install torchvision'.format(pip))
+    except Exception as e:
+        print(e)
+        if not has_gpu:
+            print('Install Tensorflow-CPU')
+            try:
+                import tensorflow
+            except:
+                os.system('{0} install tensorflow==1.12.0'.format(pip))
+            print('Install Pytorch-CPU')
+            try:
+                import torch
+            except:
+                if iswindows:
+                    os.system('{0} install https://download.pytorch.org/whl/cpu/torch-1.0.1-cp36-cp36m-win_amd64.whl'
+                              .format(pip))
+                else:
+                    os.system('{0} install https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp36-cp36m-linux_x86_64.whl'
+                              .format(pip))
+                os.system('{0} install torchvision'.format(pip))
+
+
+def test_tensor_flow():
+    import tensorflow as tf
+    const = tf.constant(2.0, name='const')
+
+    b = tf.Variable(2.0, name='b')
+    c = tf.Variable(1.0, dtype=tf.float32, name='c')
+
+    d = tf.add(b, c, name='d')
+    e = tf.add(c, const, name='e')
+    a = tf.multiply(d, e, name='a')
+
+    init_op = tf.global_variables_initializer()
+    # session
+    with tf.Session() as sess:
+        sess.run(init_op)
+        # 计算
+        a_out = sess.run(a)
+        print("Variable a is {}".format(a_out))
+
 
 
 def install_numpy_sklearn():
@@ -134,6 +267,34 @@ def install_numpy_sklearn():
         os.system('{0} install scikit-learn'.format(pip))
 
 
+def install_nltk():
+    try:
+        import nltk
+        install_nltk_data()
+    except:
+        print('Install nltk')
+        os.system('{0} install nltk'.format(pip))
+        install_nltk_data()
+
+
+def install_nltk_data():
+    try:
+        import nltk
+        print('Install necessary nltk data')
+        data_list = ['stopwords',
+                     'wordnet',
+                     'averaged_perceptron_tagger',
+                     'punkt']
+        for data in data_list:
+            try:
+                print('install nltk: {0}'.format(data))
+                nltk.download(data)
+            except Exception as e:
+                print(e)
+    except Exception as e:
+        print(e)
+
+
 def install_spacy():
     try:
         import spacy
@@ -152,6 +313,10 @@ def install_spacy_model():
     except:
         print('Install Spacy English Small Model')
         os.system('{0} -m spacy download en_core_web_sm'.format(python))
+        try:
+            os.system('{0} -m spacy download en'.format(python))
+        except Exception as e:
+            print(e)
 
     try:
         import en_core_web_lg
