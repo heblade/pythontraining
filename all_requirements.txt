@@ -215,7 +215,7 @@ prometheus-client==0.3.1
 promise==2.2.1
 prompt-toolkit==1.0.15
 protobuf==3.6.1
-py==1.6.0
+py==1.10.0
 pyaml==18.11.0
 pyarrow==0.12.1
 pyasn1==0.4.4
