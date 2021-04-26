@@ -158,7 +158,7 @@ livereload==2.6.0
 lml==0.0.2
 ludwig==0.1.0
 lunardate==0.1.5
-lxml==4.2.5
+lxml==4.6.3
 macropy3==1.1.0b2
 Markdown==2.6.11
 MarkupSafe==1.0
