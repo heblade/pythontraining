@@ -3,36 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="61e5ad24-892c-4fe1-93ae-9eddb0d0b7f0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21. Data Mining Package_Pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/21. Data Mining Package_Pandas.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21.1 Data Mining Package_Pandas_Samples.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/21.1 Data Mining Package_Pandas_Samples.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/22. Machine Learning Basic Introduction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/22. Machine Learning Basic Introduction.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/22.1 Hello World_Machine Learning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/22.1 Hello World_Machine Learning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24. Neural Network Introduction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/24. Neural Network Introduction.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/animal.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/excel/animal.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel/multisheets.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/excel/multisheets.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/model/iris.lr.joblib" beforeDir="false" afterPath="$PROJECT_DIR$/output/model/iris.lr.joblib" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mycode/bp_learn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4495">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,6 +34,7 @@
     <option name="width" value="1400" />
     <option name="height" value="781" />
   </component>
+  <component name="ProjectId" id="1rgpVsHOTWPLkFCZVp4gL29Ml58" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -88,21 +64,13 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.install_need_package">
     <configuration name="applydir" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -199,6 +167,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/install_need_package.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
@@ -221,6 +190,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
