@@ -265,7 +265,7 @@ regex==2017.4.5
 requests==2.20.0
 requests-toolbelt==0.9.1
 responses==0.10.5
-rsa==3.4.2
+rsa==4.7
 s3transfer==0.1.13
 scikit-image==0.14.2
 scikit-surprise==1.0.3
