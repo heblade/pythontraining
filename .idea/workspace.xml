@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="61e5ad24-892c-4fe1-93ae-9eddb0d0b7f0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03. comment and exception.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/03. comment and exception.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04. operator.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/04. operator.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,10 +174,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.using_name" />
       <item itemvalue="Python.applydir" />
       <item itemvalue="Python.install_need_package" />
       <item itemvalue="Python.support" />
+      <item itemvalue="Python.using_name" />
       <item itemvalue="Python tests.pytest in install_need_package.py" />
     </list>
     <recent_temporary>
