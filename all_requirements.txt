@@ -73,7 +73,7 @@ flair==0.4.0
 flaky==3.4.0
 flasgger==0.9.1
 Flask==1.0.2
-Flask-Cors==3.0.7
+Flask-Cors==3.0.9
 ftfy==4.4.3
 funcy==1.11
 future==0.16.0
