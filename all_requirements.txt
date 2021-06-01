@@ -324,7 +324,7 @@ typing==3.6.4
 ujson==1.35
 Unidecode==1.0.22
 uritemplate==3.0.0
-urllib3==1.23
+urllib3==1.26.5
 vine==1.2.0
 virtualenv==16.0.0
 w3lib==1.19.0
