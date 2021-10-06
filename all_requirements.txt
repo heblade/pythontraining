@@ -270,7 +270,7 @@ s3transfer==0.1.13
 scikit-image==0.14.2
 scikit-surprise==1.0.3
 scipy==1.0.0
-Scrapy==1.4.0
+Scrapy==1.8.1
 seaborn==0.9.0
 segtok==1.5.7
 selenium==3.8.0
