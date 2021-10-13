@@ -94,7 +94,7 @@ patsy==0.5.1
 pexpect==4.8.0
 pg8000==1.20.0
 pickleshare==0.7.5
-Pillow==8.3.1
+Pillow==8.3.2
 pkginfo==1.7.1
 platformdirs==2.2.0
 poetry==1.1.8
