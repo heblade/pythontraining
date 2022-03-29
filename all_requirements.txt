@@ -97,7 +97,7 @@ pickleshare==0.7.5
 Pillow==8.3.1
 pkginfo==1.7.1
 platformdirs==2.2.0
-poetry==1.1.8
+poetry==1.1.9
 poetry-core==1.0.4
 progressbar==2.5
 prometheus-client==0.11.0
