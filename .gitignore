@@ -159,3 +159,20 @@
 /logs/TextCNN-epoch-5/events.out.tfevents.1604466301.SZ-JTL0WT2
 /logs/TextCNN-epoch-5/plugins/profile/2020-11-04_13-05-01/local.trace
 /download/flair_master.zip
+/.ipynb_checkpoints/20.2 Data Operation Package_Numpy_审计常用函数-checkpoint.ipynb
+/.ipynb_checkpoints/21.2 pandas_practice_sz_house-checkpoint.ipynb
+/.ipynb_checkpoints/21.3 A_stocks-checkpoint.ipynb
+/.ipynb_checkpoints/21.4 A_Data-checkpoint.ipynb
+/.ipynb_checkpoints/22.3 Scikit-Learn模型可视化-checkpoint.ipynb
+/.ipynb_checkpoints/24.0.2 Pytorch常用代码-checkpoint.ipynb
+/.ipynb_checkpoints/24.0.3 Pytorch实现ResNet-checkpoint.ipynb
+/.ipynb_checkpoints/24.4 Transformer Demo-checkpoint.ipynb
+/.ipynb_checkpoints/24.4 简单实现GAN模型-checkpoint.ipynb
+/.ipynb_checkpoints/Test Tensorflow Whether is OK-checkpoint.ipynb
+/21.4 A_Data.ipynb
+/excel/stocks/tushare/中国A股股票列表_20220926113612.xlsx
+/lenet_train.py
+/nlpmodel/text8
+/nlpmodel/text8.w2v.model
+/nlpmodel/text8.w2v.model.syn1neg.npy
+/nlpmodel/text8.w2v.model.wv.vectors.npy
