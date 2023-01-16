@@ -72,7 +72,7 @@ MarkupSafe==2.0.1
 matplotlib==3.4.3
 matplotlib-inline==0.1.2
 mcli==0.3.36
-mistune==0.8.4
+mistune==2.0.3
 msgpack==1.0.2
 Naked==0.1.31
 nbclient==0.5.4
