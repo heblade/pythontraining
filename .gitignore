@@ -8372,3 +8372,15 @@
 /flower_data/valid/99/image_07873.jpg
 /flower_data/valid/99/image_07875.jpg
 /flower_data/valid/99/image_08063.jpg
+/.ipynb_checkpoints/24.7 Bert_Text_Classification-checkpoint.ipynb
+/saved_bert_models/config.json
+/saved_bert_models/pytorch_model.bin
+/saved_bert_models/special_tokens_map.json
+/saved_bert_models/tokenizer_config.json
+/saved_bert_models/vocab.txt
+/yelp_review_polarity_csv/readme.txt
+/yelp_review_polarity_csv/test.csv
+/yelp_review_polarity_csv/train.csv
+/yelp_review_polarity_csv/yelp_review_polarity_csv/readme.txt
+/yelp_review_polarity_csv/yelp_review_polarity_csv/test.csv
+/yelp_review_polarity_csv/yelp_review_polarity_csv/train.csv
