@@ -8384,3 +8384,8 @@
 /yelp_review_polarity_csv/yelp_review_polarity_csv/readme.txt
 /yelp_review_polarity_csv/yelp_review_polarity_csv/test.csv
 /yelp_review_polarity_csv/yelp_review_polarity_csv/train.csv
+/.ipynb_checkpoints/24.0.4 AlexNet-checkpoint.ipynb
+/.ipynb_checkpoints/29_NLP_v2_i2k_exploration-checkpoint.ipynb
+/alex_cifar10/data.txt
+/alex_cifar10/epoch_num.txt
+/alex_cifar10/weights.best.hdf5
